@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "simple_logical_test/1.0.0": {
+        "runtime": {
+          "simple_logical_test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "simple_logical_test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\zzzz\simple_logic_test\bin\Debug\net8.0\simple_logical_test.exe
+C:\zzzz\simple_logic_test\bin\Debug\net8.0\simple_logical_test.deps.json
+C:\zzzz\simple_logic_test\bin\Debug\net8.0\simple_logical_test.runtimeconfig.json
+C:\zzzz\simple_logic_test\bin\Debug\net8.0\simple_logical_test.dll
+C:\zzzz\simple_logic_test\bin\Debug\net8.0\simple_logical_test.pdb
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.AssemblyInfoInputs.cache
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.AssemblyInfo.cs
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.csproj.CoreCompileInputs.cache
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.sourcelink.json
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.dll
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\refint\simple_logical_test.dll
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.pdb
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\simple_logical_test.genruntimeconfig.cache
+C:\zzzz\simple_logic_test\obj\Debug\net8.0\ref\simple_logical_test.dll

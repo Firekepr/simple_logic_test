@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\zzzz\\simple_logic_test\\simple_logical_test\\simple_logical_test.csproj",
+      "projectUniqueName": "C:\\zzzz\\simple_logic_test\\simple_logical_test.csproj",
       "projectName": "simple_logical_test",
-      "projectPath": "C:\\zzzz\\simple_logic_test\\simple_logical_test\\simple_logical_test.csproj",
+      "projectPath": "C:\\zzzz\\simple_logic_test\\simple_logical_test.csproj",
       "packagesPath": "C:\\Users\\FelipedosSantosSchva\\.nuget\\packages\\",
-      "outputPath": "C:\\zzzz\\simple_logic_test\\simple_logical_test\\obj\\",
+      "outputPath": "C:\\zzzz\\simple_logic_test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FelipedosSantosSchva\\AppData\\Roaming\\NuGet\\NuGet.Config"
