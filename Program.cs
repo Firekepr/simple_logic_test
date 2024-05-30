@@ -22,7 +22,7 @@ class Program {
             }    
         } while (action == 0);
 
-        if (action == 2) Environment.Exit(0);
+        if (action == 2) UserActions.exit();
 
         Console.Clear();
 
@@ -43,7 +43,6 @@ class Program {
 
         } while (user_action != 3);
 
-        Console.WriteLine("Exiting...");
-        Environment.Exit(0);
+        UserActions.exit();
     }
 }

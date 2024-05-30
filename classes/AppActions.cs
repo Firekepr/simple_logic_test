@@ -51,5 +51,10 @@
 
                 return val;
             }
+
+            public static void exit() {
+                Console.WriteLine("Exiting...");
+                Environment.Exit(0);
+            }
         }
     }
