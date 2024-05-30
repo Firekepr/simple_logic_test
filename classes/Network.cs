@@ -2,7 +2,9 @@ using System;
 using System.Collections.Generic;
 
 namespace NetworkApp {
+    
     public class Network {
+
         private int _size;
         private Dictionary<int, List<int>> _connections;
 
