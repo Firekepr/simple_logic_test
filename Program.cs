@@ -1,5 +1,6 @@
 ﻿using System;
 using AppActions;
+using NetworkApp;
 
 class Program {
     static void Main(string[] args) {
@@ -25,6 +26,8 @@ class Program {
 
         Console.Clear();
 
+        Network _net = new Network(8);
+
         int user_action = 0;
         
         do {
@@ -33,6 +36,8 @@ class Program {
             if (user_action == 1) {  
                 int val1 = UserActions.getValue("Inform the first value (Choose between 1 to 8)");
                 int val2 = UserActions.getValue("Inform the second value (Choose between 1 to 8)");
+
+                _net.connect(val1, val2);
             }
 
         } while (user_action != 3);
