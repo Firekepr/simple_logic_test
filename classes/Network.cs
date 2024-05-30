@@ -26,5 +26,34 @@ namespace NetworkApp {
             Console.WriteLine($"Numbers {value_one} and {value_two} connected!");
             Console.WriteLine("--------------------------------");
         }
+
+        public bool query(int value_one, int value_two) {
+            if (value_one <= 0 || value_two <= 0 || value_one > _size || value_two > _size) throw new ArgumentException("Elements must be within the range of the network.");
+            return hasConnection(value_one, value_two, new HashSet<int>());
+        }
+
+        private bool hasConnection(int value_one, int value_two, HashSet<int> visited) {
+            if (value_one == value_two) return true;
+
+            visited.Add(value_one);
+
+            Console.Clear();
+        
+            foreach (var connection in _connections[value_one]) {
+                if (!visited.Contains(connection)) {
+                    if (IsConnected(connection, value_two, visited)) {
+                        Console.WriteLine($"Number {value_one} and {value_two} are connected!");
+                        Console.WriteLine("--------------------------------");
+
+                        return true;
+                    }
+                }
+            }
+
+            Console.WriteLine($"Number {value_one} and {value_two} are not connected!");
+            Console.WriteLine("--------------------------------");
+
+            return false;
+        }
     }
 }

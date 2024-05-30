@@ -33,13 +33,17 @@ class Program {
         do {
             user_action = UserActions.getAction();
 
-            if (user_action == 1) {  
-                int val1 = UserActions.getValue("Inform the first value (Choose between 1 to 8)");
-                int val2 = UserActions.getValue("Inform the second value (Choose between 1 to 8)");
+            if (user_action != 3) {  
+                int value_one = UserActions.getValue("Inform the first value (Choose between 1 to 8)");
+                int value_two = UserActions.getValue("Inform the second value (Choose between 1 to 8)");
 
-                _net.connect(val1, val2);
+                if (user_action == 1) _net.connect(value_one, value_two);
+                if (user_action == 2) _net.query(value_one, value_two);
             }
 
         } while (user_action != 3);
+
+        Console.WriteLine("Exiting...");
+        Environment.Exit(0);
     }
 }
